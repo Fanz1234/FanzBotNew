@@ -34,7 +34,7 @@ global.location = "Planet Kepler-452b" //ur location
 //new
 global.botname = "𝐅𝐚𝐧𝐳𝐁𝐨𝐭𝐳𝐳"
 global.ownernumber = '6285812373011'
-global.ownername = '6285812373011'
+global.ownername = 'FanzOffc'
 global.ownerNumber = ["6285812373011@s.whatsapp.net"]
 global.ownerweb = "-"
 global.websitex = "-"
