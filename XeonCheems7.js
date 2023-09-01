@@ -1041,8 +1041,8 @@ XeonBotInc.sendImage(m.chat, buff, `${getraindata.response}`, m)
 }
 }
 
-if (isMedia && m.msg.fileSha256 && (m.msg.fileSha256.toString('base64') in global.db.data)) {
-let hash = global.db.data[m.msg.fileSha256.toString('base64')]
+if (isMedia && m.msg.fileSha256 && (m.msg.fileSha256.toString('base32') in global.db.data.sticker)) {
+let hash = global.db.data.sticker[m.msg.fileSha256.toString('base32')]
 let { text, mentionedJid } = hash
 let messages = await generateWAMessage(from, { text: text, mentions: mentionedJid }, {
 userJid: XeonBotInc.user.id,
