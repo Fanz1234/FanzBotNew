@@ -2437,7 +2437,7 @@ _I made from the two authors below_
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 ◦ bot name : *${global.botname}*
 ◦ author¹ : _${global.ownernumber}_
-◦ author² : _6285812373011_
+◦ author² : _17077706877_
 ◦ version : *3.3.0*
 ◦ type baiyles : *MultiDevice*
 _${runtime(process.uptime())}_
