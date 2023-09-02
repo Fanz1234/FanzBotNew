@@ -16,7 +16,7 @@ global.doc6 = 'application/vnd.android.package-archive'
 
 
 //if api key expire, u can generate one from here: https://beta.openai.com/account/api-keys
-global.keyopenai = "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"
+global.keyopenai = "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"
 
 //batas
 global.APIKeys = {
