@@ -24,8 +24,8 @@ global.APIKeys = {
 }
 
 //owmner v card
-global.owner = ['6285812373011','17077706877'] //ur owner number
-global.ownernomer = "6285812373011" //ur owner number2
+global.owner = ['17077706877'] //ur owner number
+global.ownernomer = "17077706877" //ur owner number2
 global.ownername = "FanzOffc" //ur owner name
 global.ytname = "hmm" //ur yt chanel name
 global.socialm = "jgn spam owner kantal" //ur github or insta name
@@ -33,9 +33,9 @@ global.location = "Planet Kepler-452b" //ur location
 
 //new
 global.botname = "𝐅𝐚𝐧𝐳𝐁𝐨𝐭𝐳𝐳"
-global.ownernumber = '6285812373011'
+global.ownernumber = '17077706877'
 global.ownername = 'FanzOffc'
-global.ownerNumber = ["6285812373011@s.whatsapp.net"]
+global.ownerNumber = ["17077706877@s.whatsapp.net"]
 global.ownerweb = "-"
 global.websitex = "-"
 global.wagc = "-"
@@ -44,7 +44,7 @@ global.wm = "Fanz"
 global.botscript = 'kamu nanyeak escehnya?' //script link
 global.packname = "𝐅𝐚𝐧𝐳𝐁𝐨𝐭𝐳𝐳"
 global.author = "FanzOffc"
-global.creator = "6285812373011@s.whatsapp.net"
+global.creator = "17077706877@s.whatsapp.net"
 global.prefa = ['','!','.','#','&']
 global.hituet = 0
 
