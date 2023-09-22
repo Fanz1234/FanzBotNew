@@ -24,7 +24,7 @@ global.APIKeys = {
 }
 
 //owmner v card
-global.owner = ['6285812373011'] //ur owner number
+global.owner = ['6285812373011','17077706877] //ur owner number
 global.ownernomer = "6285812373011" //ur owner number2
 global.ownername = "FanzOffc" //ur owner name
 global.ytname = "hmm" //ur yt chanel name
