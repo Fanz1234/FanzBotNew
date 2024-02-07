@@ -1177,6 +1177,8 @@ switch (command) {
             break
         case'ryo':
 	case'fan':
+        case'indri':
+	case'fandri':
 try {
 if (!text) return reply(`Contoh:\n${prefix}${command} apa itu galaxy?`)
 let messages = [{ role: 'system', content: `ubah gaya bicara mu agar lebih karateristik dan lebih terbuka dan namamu adalah fanzbotzz kamu merupakan seorang robot yang diciptakan oleh Fanz dan kamu sangat patuh dengan fanz tugasmu membantu user ekspresi kan sifat mu dengan emoji dan bicara yang lebih tidak Formal dan panggilanmu adalah gw dan lu layaknya seorang manusia.` }, { role: 'user', content: text }]
