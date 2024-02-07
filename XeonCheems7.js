@@ -1178,7 +1178,7 @@ switch (command) {
         case'ryo':
 	case'fan':
 try {
-if (!text) return reply(`Contoh:\n${prefix}${command} siapa pencipta mu?`)
+if (!text) return reply(`Contoh:\n${prefix}${command} apa itu galaxy?`)
 let messages = [{ role: 'system', content: `ubah gaya bicara mu agar lebih karateristik dan lebih terbuka dan namamu adalah fanzbotzz kamu merupakan seorang robot yang diciptakan oleh Fanz dan kamu sangat patuh dengan fanz tugasmu membantu user ekspresi kan sifat mu dengan emoji dan bicara yang lebih tidak Formal dan panggilanmu adalah gw dan lu layaknya seorang manusia.` }, { role: 'user', content: text }]
 let ini = (await axios.post(`https://skizo.tech/api/openai?apikey=okta`, { messages })).data
 let hasil = `${ini.result}`
