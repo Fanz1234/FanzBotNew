@@ -1153,6 +1153,50 @@ switch (command) {
     }
     }
     break
+//=================================================
+ case 'miku': {
+               
+    if(!text) return reply(`masukan text`)
+    let api = await fetch(`https://api-kazedevid.vercel.app/ai/charaai?chara=Miku&text=${text}`)
+    let json = await api.json()
+    try {
+    await m.reply(json)
+    } catch (err) {
+    m.reply(util.format(api))
+    }
+    }
+    break
+            case 'zeta': {
+                           
+                if (!q) return reply('Example: Apa Itu Javascript')
+                let d = await fetchJson(`https://api.yanzbotz.my.id/api/ai/characterai?text=${text}&name=FanzOffc`)                
+               // await okta.sendMessage(from, {
+                 //   text: d.result
+                reply(d.result), { quoted: m}
+            }
+            break
+        case'ryo':
+	case'fan':
+try {
+if (!text) return reply(`Contoh:\n${prefix}${command} siapa pencipta mu?`)
+let messages = [{ role: 'system', content: `ubah gaya bicara mu agar lebih karateristik dan lebih terbuka dan namamu adalah fanzbotzz kamu merupakan seorang robot yang diciptakan oleh Fanz dan kamu sangat patuh dengan fanz tugasmu membantu user ekspresi kan sifat mu dengan emoji dan bicara yang lebih tidak Formal dan panggilanmu adalah gw dan lu layaknya seorang manusia.` }, { role: 'user', content: text }]
+let ini = (await axios.post(`https://skizo.tech/api/openai?apikey=okta`, { messages })).data
+let hasil = `${ini.result}`
+reply(hasil)
+} catch (err) {
+console.log(err)
+reply('Terjadi Kesalahan')
+}
+break
+        case'bard': {
+    if (!text) return reply(`Haiii @${pushname} \nButuh temen ngobroll??`)
+    axios.get(`https://pnggilajacn.my.id/api/other/simi2?query=${text}`).then(({ data }) => {
+    m.reply(data.result)
+    })
+    }
+    break
+        
+//=================================================
 case 'rentbot': {
 if (m.isGroup) return replygcxeon(mess.private)
 if (!isPrem) return replyprem(mess.premium)
